@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimesKen$hi</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <script src="libs/jquery/jquery-3.6.4.min.js"></script>
+    <script src="libs/jquery/lightbox-plus-jquery.min.js"></script>
+    <script src="libs/jquery/main.js"></script>
+
+</head>
+<body>
+
+                <!--Div donde se van a contener los sliders-->
+                <div class="slideshow">
+                    <!-- Dentro del ul se almacenaran los sliders y se manejan mediante funciones de la clase slider -->
+                    <ul class="slider">
+                        <!-- Lista de imagenes que aparecen como sliders -->
+                        <li>
+                            <img src="img/1.jpeg">
+                            <!-- section que contiene cada uno de los slides de la pagina -->
+                            <section class="caption">
+                                <h2>One Piece</h2>
+                                <p>Nueva pelicula de One Piece "Film Red", donde podremos ver en acción a nuestra banda
+                                    favorita de piratas los "Sombre de paja" junto a la banda de nuestro yonkou favorito "Shanks",
+                                    luchando mano a mano contra un enemigo en común.
+                                </p>
+                            </section>
+                        </li>
+                        <li>
+                            <img src="img/2.jpg">
+                            <section class="caption">
+                                <h2>Kimetsu no Yaiba</h2>
+                                <p>Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo carbón, 
+                                    descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las cosas, 
+                                    su hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en demonio. 
+                                    Destrozado por los acontecimientos Tanjiro decide convertirse en un cazador de demonios para poder devolver 
+                                    a su hermana a la normalidad y matar al demonio que masacró a su familia.
+                                </p>
+                            </section>
+                        </li>
+                        <li>
+                            <img src="img/3.jpg">
+                            <section class="caption">
+                                <h2>Boku no Hero</h2>
+                                <p>Las personas no nacen igual. El protagonista de esta historia es uno de esos casos raros que nacen sin superpoderes, 
+                                    pero esto no le impedirá perseguir su sueño: ser un gran héroe como el legendario All-Might. 
+                                    Para convertirse en el héroe que quiere ser, se apuntará a una de las academias de héroes más prestigiosas del país: Yueiko. 
+                                    Con la ayuda de su ídolo, 
+                                    All-Might, ¿podrá convertirse en un verdadero héroe?
+                                </p>
+                            </section>
+                        </li>
+                        <li>
+                            <img src="img/4.jpg">
+                            <section class="caption">
+                                <h2>Dr. Stone</h2>
+                                <p>Senku es un joven extremadamente inteligente con un gran don para la ciencia y una ácida personalidad, 
+                                    y su mejor amigo es Taiju, que es muy buena persona pero más apto para usar los músculos que para pensar. 
+                                    Cuando tras cierto incidente toda la humanidad acaba convertida en piedra, 
+                                    ellos logran despertarse en un mundo miles de años después, 
+                                    con la civilización humana completamente desaparecida y con toda la humanidad congelada en piedra 
+                                    como ellos estuvieron. 
+                                    Ahora es su obligación rescatar a la gente y crear un nuevo mundo. </p>
+                            </section>
+                        </li>
+
+                    </ul>
+                    <!-- esta mostrara los iconos circulares debajo del slider -->
+                    <ol class="pagination">
+                        
+                    <!-- Acá se agregan de manera dinamica los li circle desde jquery -->
+
+                    </ol>
+
+                    <!-- flecha izquierda -->
+                    <div class="izquierda">
+                        <span class="fa fa-chevron-left">
+                        </span>
+                    </div>
+
+                    <!-- flecha derecha -->
+                    <div class="derecha">
+                        <span class="fa fa-chevron-right">
+                        </span>
+                    </div>
+
+                </div>
+
+
+        <!-- Contenedor de la galeria -->
+
+       <div class="galeria_container">
+
+            <h1>Catalogo de animes</h1>
+
+            <!-- Elementos de la galeria -->
+
+            <ul class="galeria">
+                <li class="galeria_item">
+                    <a href="img/g1.jpg" data-lightbox="mygallery">
+                        <img src="img/g1.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g2.jpg" data-lightbox="mygallery">
+                        <img src="img/g2.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g3.jpg" data-lightbox="mygallery">
+                        <img src="img/g3.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g4.jpg" data-lightbox="mygallery">
+                        <img src="img/g4.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g5.jpg" data-lightbox="mygallery">
+                        <img src="img/g5.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g6.jpg" data-lightbox="mygallery">
+                        <img src="img/g6.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g7.jpg" data-lightbox="mygallery">
+                        <img src="img/g7.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g8.jpg" data-lightbox="mygallery">
+                        <img src="img/g8.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g9.jpg" data-lightbox="mygallery">
+                        <img src="img/g9.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g10.jpg" data-lightbox="mygallery">
+                        <img src="img/g10.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g11.jpg" data-lightbox="mygallery">
+                        <img src="img/g11.jpg" class="galeria_img">
+                    </a>
+                </li>
+                <li class="galeria_item">
+                    <a href="img/g12.jpg" data-lightbox="mygallery">
+                        <img src="img/g12.jpg" class="galeria_img">
+                    </a>
+                </li>
+            </ul>
+
+       </div>
+
+</body>
+</html>
